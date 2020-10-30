@@ -1,0 +1,23 @@
+{
+  "name": "node-express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node-express-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwerb/node-express-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwerb/node-express-app/issues"
+  },
+  "homepage": "https://github.com/zwerb/node-express-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
