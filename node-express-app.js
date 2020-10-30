@@ -1,11 +1,11 @@
-const express = require('express');
-
+const express = require("express");
 const app = express();
+const port = 5000;
 
-app.get('/',(req,res)=>{
-    res.send('<h1>My Node-Express App</h1>');
+app.get("/", (req, res) => {
+  res.send("<h2>Hello World - Node-Express App!</h2>");
 });
 
-app.listen(5000,()=>{
-    console.log('Node-Express App listening on port 5000!  Navigate to: http://localhost:5000/ in your browser.');
+app.listen(port, () => {
+  console.log(`Node-Express App listening at: http://localhost:${port}`);
 });
