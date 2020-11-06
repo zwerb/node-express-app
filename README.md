@@ -2,25 +2,37 @@
 
 A simple node-express app for server testing.
 
+Using Vuely template from : https://docs.theironnetwork.org/vuely/
+
 ## Get Started
 
-1. fork or clone https://github.com/zwerb/node-express-app.git
+1. fork or `git clone https://github.com/zwerb/node-express-app.git`
 
-2. cd node-express-app
+2. `cd node-express-app`
 
-3. npm install
+3. `npm install`
 
-4. a. for single run:
-	npm start
-	or: node node-express-app.js 
-	
-	#to kill
-	ctrl c
+4. 
+   a. for server run:
+	`npx pm2 start`
 
-   b. for server run:
-	npx pm2 start node-express-app.js 
-	or: npx pm2 start node-express-app.js -i 4 #(4 instances)
+	`npx pm2 status`
 
 	#to kill: 
-	npx pm2 kill
-	npx pm2 status
+	`npx pm2 kill`
+
+	b. for single run:
+	`npm start`
+	
+	#to kill
+	`ctrl c`
+
+5. to update system
+
+	`git pull`
+
+	`npx pm2 kill`
+
+	`npx pm2 start`
+
+
