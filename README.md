@@ -19,6 +19,8 @@ Using Vuely template from : https://docs.theironnetwork.org/vuely/
 	`npx pm2 status`
 
 	#to kill: 
+	`npx pm2 delete <name-of-process>`
+	or
 	`npx pm2 kill`
 
 	b. for single run:
@@ -31,7 +33,9 @@ Using Vuely template from : https://docs.theironnetwork.org/vuely/
 
 	`git pull`
 
-	`npx pm2 kill`
+	`npm install`
+
+	`npx pm2 delete <name-of-process>`
 
 	`npx pm2 start`
 
